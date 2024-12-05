@@ -1,11 +1,17 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "147456369",
-    "database": "crud_exercise",
-    "host": "127.0.0.1",
+    "username": "crued_exercise_db",
+    "password": "0Js0b13DpBtw9PK4BWzsQQcN02dvuGdB",
+    "database": "crued_exercise_db",
+    "host": "dpg-ct8mbdd6l47c73d4tnf0-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "port": 5432
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -15,11 +21,12 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "ttbhanh",
-    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
-    "database": "tuandb",
-    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
+    "username": "crued_exercise_db",
+    "password": "0Js0b13DpBtw9PK4BWzsQQcN02dvuGdB",
+    "database": "crued_exercise_db",
+    "host": "dpg-ct8mbdd6l47c73d4tnf0-a.oregon-postgres.render.com",
     "dialect": "postgres",
+    "port": 5432,
     "dialectOptions": {
       "ssl": {
         "require": true,
